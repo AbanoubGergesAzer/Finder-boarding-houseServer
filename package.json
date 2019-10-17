@@ -1,0 +1,29 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "RestApi web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abanoub",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-group-routes": "^1.1.0",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "md5": "^2.2.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.15.0",
+    "sequelize-cli": "^5.5.0",
+    "sequelize-file": "^0.3.0"
+  }
+}
